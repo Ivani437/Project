@@ -1,0 +1,296 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+nav{
+    height: 53px;
+    background: #212121;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: +1; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 58px ;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+.menu .menu_link{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 50px;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+   background-color: rgba(0,0,0, .6);
+   margin-top: 53px;
+}
+
+.subheader .subheader_logo{
+    display: block;
+    max-width: 100%;
+    margin-top: 19px;
+}
+
+.subheader .subheader_official{
+    margin-top: 6px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call{
+    text-align: right;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_phone{
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn{
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo{
+    min-height: 800px;
+    background:url(/src/css/img/uber_bg.svg) center center/cover no-repeat;
+    padding: 203px 0 135px 0;
+
+}
+
+.promo .promo_header{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr{
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn{
+
+    display: block;
+    margin:115px auto 0 auto ;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border:none;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.secondscreen{
+    min-height: 850px;
+    padding: 20px 0 64px 0;
+    background: #FFFFFF;
+}
+
+.secondscreen .secondscreen_header{
+    position: relative;
+    display: block;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    margin:0 auto 0 auto ;
+
+  
+}
+.secondscreen .secondscreen_header_icon_txt{
+    position: absolute;
+    display: block;
+    margin-left: 10px;
+    margin-top: -19px;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+    
+   
+}
+
+.secondscreen .title{
+    
+    display: block;
+    margin-top: 34px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+}
+
+.secondscreen .first_descr, .secondscreen .second_descr {
+    margin-left: 35px;
+    margin-top: 16px;
+}
+
+.secondscreen .round, .secondscreen .round1 {
+   
+    position: absolute;
+    margin-top: 18px;
+}
+
+.secondscreen .firstimg, .secondscreen .thirdimg {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 14px;
+   
+    
+}
+
+.secondscreen .firstimg_descr, .secondscreen .secondimg_descr, .secondscreen .thirdimg_descr, .secondscreen .fourthimg_descr, .secondscreen .fifthimg_descr, .secondscreen .sixthimg_descr, .secondscreen .seventhimg_descr, .secondscreen .eightimg_descr{
+    margin-left: 145px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #202020;
+}
+.secondscreen .firstimg_descr span, .secondscreen .secondimg_descr span, .secondscreen .thirdimg_descr span, .secondscreen .fourthimg_descr span, .secondscreen .fifthimg_descr span, .secondscreen .sixthimg_descr span, .secondscreen .seventhimg_descr span, .secondscreen .eightimg_descr span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.secondscreen .secondimg{
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 23px;
+   
+}
+
+.secondscreen .third_descr, .secondscreen .fourth_descr {
+    margin-left: 35px;
+    margin-top: 42px;
+}
+
+
+
+ .secondscreen .round2, .secondscreen .round3 {
+   
+    position: absolute;
+    margin-top: 12px;
+}
+
+
+.secondscreen .fourthimg{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.secondscreen .fifth_descr, .secondscreen .sixth_descr {
+    margin-left: 35px;
+    margin-top: 72px;
+}
+
+.secondscreen .round4, .secondscreen .round5 {
+   
+    position: absolute;
+    margin-top: 1px;
+    
+}
+.secondscreen .fifthimg{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 28px;
+}
+ .secondscreen .sixthimg {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.secondscreen .seventh_descr, .secondscreen .eight_descr {
+    margin-left: 35px;
+    margin-top: 52px;
+}
+.secondscreen .round6, .secondscreen .round7 {
+   
+    position: absolute;
+    
+}
+
+.secondscreen .seventhimg{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ .secondscreen .eightimg {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 17px;
+}
